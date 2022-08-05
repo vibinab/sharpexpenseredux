@@ -1,0 +1,15 @@
+.expenseitem {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.expenseitem .expenseitem-list li {
+    list-style-type: none;
+    margin-left: 1rem;
+}
+
+.expenseitem .expenseitem-list {
+    display: flex;
+    
+}

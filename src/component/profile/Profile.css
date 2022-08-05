@@ -1,0 +1,26 @@
+.profilehead{
+    border: 2px solid red;
+}
+
+.profilehead form {
+    margin:0 auto;
+    border: 2px solid black;
+    width: 60%;
+    padding-left: 5rem;
+}
+
+.profilehead .profileform div {
+    margin-left: 2rem;
+    display: inline-block;
+
+}
+.profilehead .profileform input[type="text"]{
+    margin-left: 1rem;
+
+}
+.profileform .profilebtn {
+    color: white;
+    padding: 0.3rem;
+    background-color: brown;
+    border-radius: 20px;
+}

@@ -1,0 +1,42 @@
+
+.expensetracker{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    
+} 
+
+.expensetracker div {
+    margin-top: 2rem;
+}
+
+.expensetracker form {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+}
+
+.expensetracker form input[type="number"]{
+    margin-left: 5rem;
+    border: 2px solid red;;
+}
+
+.expensetracker form input[type="text"]{
+    margin-left: 5.9rem;
+}
+
+.expensetracker select {
+    width: 8rem;
+    margin-left: 4rem;
+}
+
+.submitbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.expensetracker button {
+    background-color: brown;
+    color: white;
+    width: 6rem;
+    padding: 0.3rem;
+}

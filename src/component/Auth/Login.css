@@ -1,0 +1,43 @@
+.loginform {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.loginform h1 {
+    font-size: 1rem;
+}
+.loginform form {
+    
+    padding: 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.loginform .login {
+    width: 11rem;
+    background-color: blue;
+    color:white;
+    height: 1.5rem;
+    border-radius: 10px;
+}
+
+.loginform .logindiv{
+    display: flex;
+    justify-content: center;
+}
+
+.loginform div {
+    margin-top: 1rem;
+}
+
+.loginform input[type="email"], input[type="password"]{
+    height: 0.8rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.loginform form div:nth-child(5) {
+    margin-top: 0rem;
+}

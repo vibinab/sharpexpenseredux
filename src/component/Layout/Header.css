@@ -1,0 +1,12 @@
+.navheader {
+    display:flex;
+    height:2rem;
+    background-color: black;
+    justify-content: end;
+}
+
+.navheader button {
+    background-color:red;
+    color:white;
+    width: 4rem;
+}
